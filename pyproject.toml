@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dbdesigner4-reverse-engineering-extra"
+version = "0.1.0"
+description = ""
+authors = ["newbie79 <newbie79@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mariadb = "^1.1.12"
+pydantic-settings = "^2.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
